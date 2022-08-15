@@ -46,7 +46,7 @@ import {
   `;
   
   const Image = styled.img`
-    height: 75%;
+    height: 40%;
     z-index: 2;
   `;
   
