@@ -54,7 +54,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-    width: 50%;
+    width: 33%;
     margin-bottom: 10px;
 `;
 
@@ -99,13 +99,13 @@ const Footer = () => {
             <List>
                 <ListItem>Home</ListItem>
                 <ListItem>Cart</ListItem>
-                <ListItem>Man Fashion</ListItem>
-                <ListItem>Woman Fashion</ListItem>
+                <ListItem>Locations</ListItem>
+                <ListItem>Shops</ListItem>
                 <ListItem>Accessories</ListItem>
                 <ListItem>My Account</ListItem>
                 <ListItem>Order Tracking</ListItem>
                 <ListItem>Wishlist</ListItem>
-                <ListItem>Wishlist</ListItem>
+                <ListItem>Privacy policy</ListItem>
                 <ListItem>Terms</ListItem>
             </List>
         </Center>
