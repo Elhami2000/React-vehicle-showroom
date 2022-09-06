@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -65,7 +66,7 @@ const Register = () => {
                 By creating an account, I consent to the processing of my personal
                 info and all that other jazz with the <b>PRIVACY POLICY</b>.
             </Agreement>
-            <Button>CREATE</Button>
+            <Button><Link to="/">CREATE</Link></Button>
             </Form>
         </Wrapper>
     </Container>

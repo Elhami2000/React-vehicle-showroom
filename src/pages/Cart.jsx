@@ -1,4 +1,5 @@
 import { Add, Remove } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
@@ -176,7 +177,7 @@ const Cart = () => {
         <Wrapper>
             <Title>Your bag.</Title>
             <Top>
-                <TopButton>Continue shopping</TopButton>
+            <Link to="/"><TopButton>Continue shopping </TopButton></Link>
                 <TopTexts>
                     <TopText>Shopping bag (2)</TopText>
                     <TopText>Your wishlist (0)</TopText>

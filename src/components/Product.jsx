@@ -4,6 +4,7 @@ import {
     SearchOutlined,
     ShoppingCartOutlined,
   } from "@material-ui/icons";
+import { Link } from "react-router-dom";
   import styled from "styled-components";
   
   const Info = styled.div`
@@ -72,8 +73,9 @@ import {
         <Circle />
         <Image src={item.img} />
         <Info>
-          <Icon>
+          <Icon><Link to="Product">
             <ShoppingCartOutlined />
+            </Link>
           </Icon>
           <Icon>
             <SearchOutlined />
